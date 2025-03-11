@@ -1,0 +1,21 @@
+{
+  "name": "solana-mev-bot",
+  "version": "1.0.0",
+  "description": "Advanced Solana MEV Bot for arbitrage opportunities",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node bin/cli.js",
+    "bot": "node src/index.js"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.87.6",
+    "@project-serum/anchor": "^0.26.0",
+    "bs58": "^5.0.0",
+    "commander": "^11.1.0",
+    "chalk": "^4.1.2",
+    "inquirer": "^8.2.6",
+    "dotenv": "^16.3.1",
+    "js-yaml": "^4.1.0",
+    "winston": "^3.11.0"
+  }
+}
